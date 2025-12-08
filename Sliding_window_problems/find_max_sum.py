@@ -20,4 +20,5 @@ input_list = [19, 4, 12, 23, 56, 87, 81, 64]
 print(f"max_sum = {max_sum_subarray(input_list, 5)}")
 print(f"max_sum = {max_sum_subarray([2, 1, 5, 1, 3, 2], 3)}")
 
-[-2, 1, -3, 4, -1, 2, 1, -5, 4]
+
+print(f"max_sum = {max_sum_subarray([-1,2,3,-5,4], 2)}")
