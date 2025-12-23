@@ -48,7 +48,7 @@ def dfs(graph, start, visited=None):
 print("BFS traversal:")
 #bfs(graph, 'A')  # Output: A B C D E F
 bfs(graph, "Alice")
-
+print("\n\nDFS traversal:")
 #print("\nDFS traversal:")
-#dfs(graph, 'A')  # Output: A B D E F C
+dfs(graph, 'Alice')  # Output: A B D E F C
 
